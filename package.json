@@ -1,0 +1,39 @@
+{
+  "name": "reactnativetestapp",
+  "version": "1.0.0",
+  "description": "First attempt at a react native app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd server && nodemon -r esm server.js\" \"cd client && expo start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ningauble479/ReactNativeTestApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ningauble479/ReactNativeTestApp/issues"
+  },
+  "homepage": "https://github.com/Ningauble479/ReactNativeTestApp#readme",
+  "dependencies": {
+    "apollo-client": "^2.6.10",
+    "apollo-server": "^2.12.0",
+    "apollo-server-express": "^2.12.0",
+    "bcrypt": "^5.0.0",
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "graphql-passport": "^0.6.3",
+    "mongoose": "^5.9.11",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "stripe": "^8.55.0",
+    "uuid": "^8.0.0"
+  }
+}
